@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    padding-top: 4.5%;
+    padding-bottom: 2%;
+}
+
+section{
+    padding-bottom: 4.5em;
+}
+
+.Caja-Demo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: Animacion_Color 4s ease-in-out infinite;
+}
+
+@keyframes Animacion_Color {
+    25% {
+        background-color: blue;
+        width: 350px;
+        height: 200px;
+    }
+
+    50% {
+        background-color: chartreuse;
+        width: 350px;
+        height: 300px;
+    }
+
+    75% {
+        background-color: cornflowerblue;
+        width: 150px;
+        height: 300px;
+    }
+
+    100% {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+.Inicio_Barra {
+    width: 0%;
+}
+
+.Final_Barra {
+    width: 100%;
+}
+
+.Animacion {
+    transition: all 0.7s ease-in-out;
+}
+
+#Caja2{
+    padding-top: 15em;
+    width: 100%;
+}
+
+#Button{
+    padding-top: 2.5em;    
+    text-align: center;    
+}
